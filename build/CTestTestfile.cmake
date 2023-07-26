@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/leo/dev/_random/a-star-test-c
-# Build directory: /home/leo/dev/_random/a-star-test-c/build
+# Source directory: /home/leo/dev/a-star-for-robots
+# Build directory: /home/leo/dev/a-star-for-robots/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

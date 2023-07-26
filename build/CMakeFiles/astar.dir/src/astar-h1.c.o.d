@@ -1,5 +1,5 @@
 CMakeFiles/astar.dir/src/astar-h1.c.o: \
- /home/leo/dev/_random/a-star-test-c/src/astar-h1.c \
+ /home/leo/dev/a-star-for-robots/src/astar-h1.c \
  /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdbool.h /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -56,4 +56,4 @@ CMakeFiles/astar.dir/src/astar-h1.c.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /home/leo/dev/_random/a-star-test-c/src/astar-h1.h
+ /home/leo/dev/a-star-for-robots/src/astar-h1.h

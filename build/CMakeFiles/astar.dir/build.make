@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leo/dev/_random/a-star-test-c
+CMAKE_SOURCE_DIR = /home/leo/dev/a-star-for-robots
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leo/dev/_random/a-star-test-c/build
+CMAKE_BINARY_DIR = /home/leo/dev/a-star-for-robots/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/astar.dir/depend.make
@@ -72,30 +72,30 @@ include CMakeFiles/astar.dir/flags.make
 CMakeFiles/astar.dir/main.c.o: CMakeFiles/astar.dir/flags.make
 CMakeFiles/astar.dir/main.c.o: ../main.c
 CMakeFiles/astar.dir/main.c.o: CMakeFiles/astar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leo/dev/_random/a-star-test-c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/astar.dir/main.c.o"
-	/usr/bin/gcc-12 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/astar.dir/main.c.o -MF CMakeFiles/astar.dir/main.c.o.d -o CMakeFiles/astar.dir/main.c.o -c /home/leo/dev/_random/a-star-test-c/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leo/dev/a-star-for-robots/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/astar.dir/main.c.o"
+	/usr/bin/gcc-12 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/astar.dir/main.c.o -MF CMakeFiles/astar.dir/main.c.o.d -o CMakeFiles/astar.dir/main.c.o -c /home/leo/dev/a-star-for-robots/main.c
 
 CMakeFiles/astar.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/astar.dir/main.c.i"
-	/usr/bin/gcc-12 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/leo/dev/_random/a-star-test-c/main.c > CMakeFiles/astar.dir/main.c.i
+	/usr/bin/gcc-12 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/leo/dev/a-star-for-robots/main.c > CMakeFiles/astar.dir/main.c.i
 
 CMakeFiles/astar.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/astar.dir/main.c.s"
-	/usr/bin/gcc-12 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/leo/dev/_random/a-star-test-c/main.c -o CMakeFiles/astar.dir/main.c.s
+	/usr/bin/gcc-12 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/leo/dev/a-star-for-robots/main.c -o CMakeFiles/astar.dir/main.c.s
 
 CMakeFiles/astar.dir/src/astar-h1.c.o: CMakeFiles/astar.dir/flags.make
 CMakeFiles/astar.dir/src/astar-h1.c.o: ../src/astar-h1.c
 CMakeFiles/astar.dir/src/astar-h1.c.o: CMakeFiles/astar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leo/dev/_random/a-star-test-c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/astar.dir/src/astar-h1.c.o"
-	/usr/bin/gcc-12 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/astar.dir/src/astar-h1.c.o -MF CMakeFiles/astar.dir/src/astar-h1.c.o.d -o CMakeFiles/astar.dir/src/astar-h1.c.o -c /home/leo/dev/_random/a-star-test-c/src/astar-h1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leo/dev/a-star-for-robots/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/astar.dir/src/astar-h1.c.o"
+	/usr/bin/gcc-12 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/astar.dir/src/astar-h1.c.o -MF CMakeFiles/astar.dir/src/astar-h1.c.o.d -o CMakeFiles/astar.dir/src/astar-h1.c.o -c /home/leo/dev/a-star-for-robots/src/astar-h1.c
 
 CMakeFiles/astar.dir/src/astar-h1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/astar.dir/src/astar-h1.c.i"
-	/usr/bin/gcc-12 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/leo/dev/_random/a-star-test-c/src/astar-h1.c > CMakeFiles/astar.dir/src/astar-h1.c.i
+	/usr/bin/gcc-12 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/leo/dev/a-star-for-robots/src/astar-h1.c > CMakeFiles/astar.dir/src/astar-h1.c.i
 
 CMakeFiles/astar.dir/src/astar-h1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/astar.dir/src/astar-h1.c.s"
-	/usr/bin/gcc-12 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/leo/dev/_random/a-star-test-c/src/astar-h1.c -o CMakeFiles/astar.dir/src/astar-h1.c.s
+	/usr/bin/gcc-12 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/leo/dev/a-star-for-robots/src/astar-h1.c -o CMakeFiles/astar.dir/src/astar-h1.c.s
 
 # Object files for target astar
 astar_OBJECTS = \
@@ -109,7 +109,7 @@ astar: CMakeFiles/astar.dir/main.c.o
 astar: CMakeFiles/astar.dir/src/astar-h1.c.o
 astar: CMakeFiles/astar.dir/build.make
 astar: CMakeFiles/astar.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leo/dev/_random/a-star-test-c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable astar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leo/dev/a-star-for-robots/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable astar"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/astar.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +121,6 @@ CMakeFiles/astar.dir/clean:
 .PHONY : CMakeFiles/astar.dir/clean
 
 CMakeFiles/astar.dir/depend:
-	cd /home/leo/dev/_random/a-star-test-c/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leo/dev/_random/a-star-test-c /home/leo/dev/_random/a-star-test-c /home/leo/dev/_random/a-star-test-c/build /home/leo/dev/_random/a-star-test-c/build /home/leo/dev/_random/a-star-test-c/build/CMakeFiles/astar.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leo/dev/a-star-for-robots/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leo/dev/a-star-for-robots /home/leo/dev/a-star-for-robots /home/leo/dev/a-star-for-robots/build /home/leo/dev/a-star-for-robots/build /home/leo/dev/a-star-for-robots/build/CMakeFiles/astar.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/astar.dir/depend
 

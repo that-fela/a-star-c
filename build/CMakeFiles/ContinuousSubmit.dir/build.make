@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leo/dev/_random/a-star-test-c
+CMAKE_SOURCE_DIR = /home/leo/dev/a-star-for-robots
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leo/dev/_random/a-star-test-c/build
+CMAKE_BINARY_DIR = /home/leo/dev/a-star-for-robots/build
 
 # Utility rule file for ContinuousSubmit.
 
@@ -82,6 +82,6 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 .PHONY : CMakeFiles/ContinuousSubmit.dir/clean
 
 CMakeFiles/ContinuousSubmit.dir/depend:
-	cd /home/leo/dev/_random/a-star-test-c/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leo/dev/_random/a-star-test-c /home/leo/dev/_random/a-star-test-c /home/leo/dev/_random/a-star-test-c/build /home/leo/dev/_random/a-star-test-c/build /home/leo/dev/_random/a-star-test-c/build/CMakeFiles/ContinuousSubmit.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leo/dev/a-star-for-robots/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leo/dev/a-star-for-robots /home/leo/dev/a-star-for-robots /home/leo/dev/a-star-for-robots/build /home/leo/dev/a-star-for-robots/build /home/leo/dev/a-star-for-robots/build/CMakeFiles/ContinuousSubmit.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ContinuousSubmit.dir/depend
 

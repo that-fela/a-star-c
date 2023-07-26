@@ -10,9 +10,9 @@
 extern const unsigned char map[MAP_HEIGHT][MAP_WIDTH];
 
 int main() {
-    // Define the start and goal points
-    Point start = {1, 3};
-    Point goal = {5, 7};
+
+    Point start = {13, 3};
+    Point goal = {6, 9};
 
     RobotDir directions = {0};
 

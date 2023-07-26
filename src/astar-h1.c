@@ -13,22 +13,18 @@ typedef struct {
     int gScore;
 } Node;
 
-// Calculate the heuristic distance between two points (Manhattan distance)
 int heuristic(Point p1, Point p2) {
     return abs(p1.x - p2.x) + abs(p1.y - p2.y); 
 }
 
-// Check if a point is within the map boundaries
 bool isValidPoint(Point point) {
     return point.x >= 0 && point.x < MAP_WIDTH && point.y >= 0 && point.y < MAP_HEIGHT; 
 }
 
-// Check if a point is an obstacle (wall)
 bool isObstacle(Point point) {
     return map[point.y][point.x] == 1; 
 }
 
-// Reconstruct the path from the start to the goal
 void reconstructPath(Point cameFrom[MAP_HEIGHT][MAP_WIDTH], Point current, RobotDir* directions) {
     Point path[MAP_WIDTH * MAP_HEIGHT];
     int pathLength = 0;
@@ -72,10 +68,9 @@ void reconstructPath(Point cameFrom[MAP_HEIGHT][MAP_WIDTH], Point current, Robot
 
 // A* algorithm
 void aStarSearch(Point start, Point goal, RobotDir* directions) {
-    bool openSet[MAP_HEIGHT][MAP_WIDTH];   // Nodes that may need to be expanded
-    Point cameFrom[MAP_HEIGHT][MAP_WIDTH]; // Preceding node on the cheapest path from start
+    bool openSet[MAP_HEIGHT][MAP_WIDTH];   
+    Point cameFrom[MAP_HEIGHT][MAP_WIDTH]; 
 
-    // Initialize the openSet and cameFrom arrays
     for (int i = 0; i < MAP_HEIGHT; i++) {
         for (int j = 0; j < MAP_WIDTH; j++) {
             openSet[i][j] = false;
@@ -84,7 +79,6 @@ void aStarSearch(Point start, Point goal, RobotDir* directions) {
         }
     }
 
-    // Initialize the gScore and fScore arrays
     int gScore[MAP_HEIGHT][MAP_WIDTH];
     int fScore[MAP_HEIGHT][MAP_WIDTH];
     for (int i = 0; i < MAP_HEIGHT; i++) {
@@ -109,7 +103,6 @@ void aStarSearch(Point start, Point goal, RobotDir* directions) {
             break;
         }
 
-        // Find the node with the lowest fScore
         for (int i = 0; i < MAP_HEIGHT; i++) {
             for (int j = 0; j < MAP_WIDTH; j++) {
                 if (openSet[i][j] && fScore[i][j] < minFScore) {
@@ -128,7 +121,6 @@ void aStarSearch(Point start, Point goal, RobotDir* directions) {
 
         openSet[current.y][current.x] = false; 
 
-        // Generate neighbors of the current node
         Point neighbors[4] = {
             {current.x, current.y - 1}, 
             {current.x, current.y + 1}, 

@@ -301,8 +301,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/leo/dev/_random/a-star-test-c/build",
-		"source" : "/home/leo/dev/_random/a-star-test-c"
+		"build" : "/home/leo/dev/a-star-for-robots/build",
+		"source" : "/home/leo/dev/a-star-for-robots"
 	},
 	"version" : 
 	{

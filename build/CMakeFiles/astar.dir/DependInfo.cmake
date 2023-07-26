@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/leo/dev/_random/a-star-test-c/main.c" "CMakeFiles/astar.dir/main.c.o" "gcc" "CMakeFiles/astar.dir/main.c.o.d"
-  "/home/leo/dev/_random/a-star-test-c/src/astar-h1.c" "CMakeFiles/astar.dir/src/astar-h1.c.o" "gcc" "CMakeFiles/astar.dir/src/astar-h1.c.o.d"
+  "/home/leo/dev/a-star-for-robots/main.c" "CMakeFiles/astar.dir/main.c.o" "gcc" "CMakeFiles/astar.dir/main.c.o.d"
+  "/home/leo/dev/a-star-for-robots/src/astar-h1.c" "CMakeFiles/astar.dir/src/astar-h1.c.o" "gcc" "CMakeFiles/astar.dir/src/astar-h1.c.o.d"
   )
 
 # Targets to which this target links.

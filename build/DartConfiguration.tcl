@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/leo/dev/_random/a-star-test-c
-BuildDirectory: /home/leo/dev/_random/a-star-test-c/build
+SourceDirectory: /home/leo/dev/a-star-for-robots
+BuildDirectory: /home/leo/dev/a-star-for-robots/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/leo/dev/_random/a-star-test-c"
+ConfigureCommand: "/usr/bin/cmake" "/home/leo/dev/a-star-for-robots"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
@@ -44,7 +44,7 @@ SVNOptions:
 SVNUpdateOptions: 
 
 # Git options
-GITCommand: 
+GITCommand: /usr/bin/git
 GITInitSubmodules: 
 GITUpdateOptions: 
 GITUpdateCustom: 
@@ -57,9 +57,9 @@ P4UpdateOptions:
 P4UpdateCustom: 
 
 # Generic update command
-UpdateCommand: 
+UpdateCommand: /usr/bin/git
 UpdateOptions: 
-UpdateType: 
+UpdateType: git
 
 # Compiler info
 Compiler: 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/leo/dev/_random/a-star-test-c
+# Install script for directory: /home/leo/dev/a-star-for-robots
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/leo/dev/_random/a-star-test-c/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/leo/dev/a-star-for-robots/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
