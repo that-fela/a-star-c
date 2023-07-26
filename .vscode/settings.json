@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "astar.h": "c",
+        "astar-h1.h": "c",
+        "string.h": "c",
+        "stdlib.h": "c",
+        "stdbool.h": "c",
+        "math.h": "c"
+    }
+}

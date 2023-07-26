@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-gcc-12"
+	BuildStamp="20230726-0428-Experimental"
+	Name="DESKTOPfdsfsdf"
+	Generator="ctest-3.22.1"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="DESKTOPfdsfsdf"
+	OSRelease="5.15.0-76-generic"
+	OSVersion="#83-Ubuntu SMP Thu Jun 15 19:16:32 UTC 2023"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="165"
+	ProcessorCacheSize="12288"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="24999"
+	TotalPhysicalMemory="23961"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="4500"
+	>
+	<Testing>
+		<StartDateTime>Jul 26 19:54 NZST</StartDateTime>
+		<StartTestTime>1690358052</StartTestTime>
+		<TestList/>
+		<EndDateTime>Jul 26 19:54 NZST</EndDateTime>
+		<EndTestTime>1690358052</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
